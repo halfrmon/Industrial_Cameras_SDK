@@ -10,3 +10,41 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
+# VSCode 配置
+.vscode/
+
+# 构建输出和缓存目录
+build/
+build*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# 编译生成的中间文件 / 可执行文件
+*.o
+*.obj
+*.so
+*.so.*
+*.a
+*.dll
+*.exe
+*.out
+*.class
+
+# 图片文件
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+*.tiff
+*.svg
+
+# 系统临时文件
+.DS_Store
+Thumbs.db
+
+# 日志和临时调试文件（可选）
+*.log
+*.tmp
